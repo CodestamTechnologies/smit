@@ -10,7 +10,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Game } from "./gameLink/gamelink";
+import { Game } from "../gameLink/gamelink";
 
 export function GameCard({ game, index }: { game: Game; index: number }) {
   return (
